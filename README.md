@@ -1,6 +1,6 @@
 # WiFi Street Coverage Explorer
 
-Description..
+Tool for analyzing the WiFi street coverage from in house access points.
 
 ## Table of contents
 
@@ -32,8 +32,8 @@ The configuration is expressed by a Json file with the following attributes:
 | Attribute | Type | Description |
 | --------- | ---- | ----------- |
 | streets | String | Path to GeoJson file |
-| db | String | Url of database |
-| wifidb | String | Url of database where WiFis are stored |
+| db | String | Url of database containing streets data, coverage and aggregated data |
+| wifidb | String | Url of database where WiFis measures are stored |
 | wificollection | String | Collection where WiFis are stored |
 | isp | Array of String | Array of SSID filters |
 | radius | Number | The radius of WiFis in meters |
