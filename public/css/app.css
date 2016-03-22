@@ -12,6 +12,10 @@ body {
     height: auto;
 }
 
+.leaflet-popup-content{
+	color:#000;
+}
+
 .leaflet-bar .myControl, .leaflet-bar .myControl:hover{
   font: bold 18px 'Lucida Console', Monaco, monospace;
   width: 60px;
