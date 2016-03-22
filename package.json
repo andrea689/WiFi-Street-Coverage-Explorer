@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/andrea689/WiFi-Street-Coverage-Explorer.git"
   },
-  "keywords": ["WiFi", "Wireless" "Community Networks", "OpenStreetMap", "Internet of Things", "Crowdsourcing"],
+  "keywords": ["WiFi", "Wireless Community Networks", "OpenStreetMap", "Internet of Things", "Crowdsourcing"],
   "author": "Politecnico di Torino",
   "license": "Apache-2.0",
   "bugs": {
