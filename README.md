@@ -122,7 +122,7 @@ To run the server:
 node app.js --server --config config.json
 ```
 
-You can configure what you want to show in web application by editing the file [app.js](public/js/app.js).
+You can configure what you want to show in web application by editing the file [public/js/app.js](public/js/app.js).
 
 ## About us
 
