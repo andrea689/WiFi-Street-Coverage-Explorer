@@ -1,0 +1,82 @@
+body {
+    color:#fff;
+}
+.angular-leaflet-map {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    position: absolute;
+    width: auto;
+    height: auto;
+}
+
+.leaflet-bar .myControl, .leaflet-bar .myControl:hover{
+  font: bold 18px 'Lucida Console', Monaco, monospace;
+  width: 60px;
+}
+
+.leaflet-bar .myControl.disabled {
+	cursor: default;
+	pointer-events: none;
+	opacity: .4;
+}
+
+#legend{
+    background:rgba(0, 0, 0, 0.61);
+    padding: 10px;
+    border-radius: 6px;
+
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+
+    color:#fff;
+}
+#legend td{
+	width: 70px;
+}
+
+.coverages {
+	fill: none;
+	/*stroke: green;*/
+	stroke-opacity: 0.5;
+	stroke-width: 3px;
+}
+
+.coverages path{
+	stroke: #00ff00;
+}
+.coverages path[count="5"]{
+	stroke: #ffff00;
+}
+.coverages path[count="4"]{
+	stroke: #ff9400;
+}
+.coverages path[count="3"]{
+	stroke: #ff5a00;
+}
+.coverages path[count="2"]{
+	stroke: #ff0000;
+}
+.coverages path[count="1"]{
+	stroke: black;
+}
+
+.measure {
+		/*fill: black;*/
+		stroke: black;
+    fill: none;
+    stroke-opacity: 1;
+    stroke-width: 1px;
+}
+
+.streets {
+    fill: none;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+    stroke: blue;
+    stroke-opacity: 1;
+    stroke-width: 5;
+}

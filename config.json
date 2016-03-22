@@ -1,0 +1,11 @@
+{
+	"streets": "geo/Turin BBOX GeoJson.json",
+	"db": "localhost:27017/Prova",
+	"wifidb": "localhost:27017/Wigle",
+	"wificollection": "wifi",
+	"isp": ["", "Alice", "Telecom"],
+	"radius": 50,
+	"cell": 1,
+	"year": 2015,
+	"port": 8443
+}

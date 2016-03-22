@@ -1,0 +1,31 @@
+{
+  "name": "WiFi-Street-Coverage-Explorer",
+  "version": "1.0.0",
+  "description": "Tool for analyzing the WiFi street coverage from in house access points",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrea689/WiFi-Street-Coverage-Explorer.git"
+  },
+  "keywords": ["WiFi", "Wireless" "Community Networks", "OpenStreetMap", "Internet of Things", "Crowdsourcing"],
+  "author": "Politecnico di Torino",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/andrea689/WiFi-Street-Coverage-Explorer/issues"
+  },
+  "homepage": "https://github.com/andrea689/WiFi-Street-Coverage-Explorer#readme",
+  "dependencies": {
+    "command-line-args": "^2.1.6",
+    "express": "^4.13.4",
+    "geojson-tools": "^0.2.1",
+    "json2csv": "^3.2.0",
+    "mkdirp": "^0.5.1",
+    "moment": "^2.12.0",
+    "mongojs": "^2.3.0",
+    "q": "^1.4.1",
+    "turf": "^2.0.2"
+  }
+}
