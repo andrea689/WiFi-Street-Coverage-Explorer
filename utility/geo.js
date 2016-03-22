@@ -19,6 +19,7 @@ exports.loadGeoJsonComplexInDB = function(file, databaseUrl, collection) {
 			var featureCollection = JSON.parse(featureCollection);
 			var elem = featureCollection.features[0];
 			saveElem(db, collection, featureCollection.features, 0, function(){
+				db.close();
 				deferred.resolve();
 			});
 		});
